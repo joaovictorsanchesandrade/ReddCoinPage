@@ -1,20 +1,36 @@
-
 # **ReddCoin Page**
 
-Uma aplicação simples para visualizar transações e movimentações da blockchain ReddCoin utilizando apenas a chave pública do usuário.
-O objetivo é oferecer uma interface leve, acessível e fácil de usar para acompanhar operações na rede.
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Made with JS](https://img.shields.io/badge/made%20with-JavaScript-green)
+
+Uma aplicação simples e intuitiva para visualizar transações e movimentações da blockchain **ReddCoin (RDD)** usando apenas a chave pública do usuário.
+
+O projeto foi criado com foco em aprendizado e boas práticas de organização, modularização e integração com APIs blockchain.
 
 ---
 
-## **Sobre o Criador**
+## 🚀 **Funcionalidades (planejadas)**
+
+* 🔍 Consultar transações usando apenas a chave pública
+* 📊 Exibir saldo atual e histórico
+* 📈 Mostrar gráficos simples de movimentação
+* ⚡ Atualização de dados em tempo real
+* 🎨 Interface simples usando Bootstrap
+* 📁 Estrutura de pastas escalável e organizada
+
+---
+
+## 👨‍💻 **Sobre o Criador**
 
 **João Victor Sanches Andrade**
-Tenho 17 anos e estudo programação há aproximadamente 3 anos.
-Minha motivação para este projeto é aprofundar meu domínio em **JavaScript**, explorando boas práticas, organização de código e arquitetura front-end.
+17 anos estudando programação há 3 anos.
+
+Este projeto tem como motivação dominar JavaScript de forma prática, entendendo arquitetura, organização de código e manipulação de dados reais vindos de APIs.
 
 ---
 
-## **Estrutura de Pastas**
+## 📂 **Estrutura de Pastas**
 
 ```
 ├── assets
@@ -30,26 +46,80 @@ Minha motivação para este projeto é aprofundar meu domínio em **JavaScript**
 └── pages
 ```
 
-### **Descrição das Pastas**
+### 📁 **Descrição da Estrutura**
 
-* **assets/**
-  Contém arquivos de mídia, como fontes, ícones e imagens utilizadas no projeto.
+#### **assets/**
 
-* **css/**
-  Armazena todos os arquivos de estilo responsáveis pela aparência das páginas.
+Arquivos de mídia do projeto (fonts, ícones, imagens, etc).
+
+#### **css/**
+
+Arquivos de estilo responsáveis pela aparência da aplicação.
+
+#### **pages/**
+
+Páginas HTML da aplicação.
+
+#### **js/**
+
+Dividido em módulos para melhor organização:
+
+* **domain/**
+  Regras de negócio e lógica central do sistema.
 
 * **pages/**
-  Contém os arquivos HTML das páginas da aplicação.
+  Scripts específicos para cada página (interatividade local).
 
-* **js/**
-  Pasta principal de scripts JavaScript, dividida por responsabilidade:
+* **services/**
+  Funções responsáveis por buscar dados externos, como a API da blockchain.
 
-  * **domain/**
-    Onde ficam as regras de negócio — a lógica mais “pura” do sistema.
-  * **pages/**
-    Scripts específicos para cada página, responsáveis pela interatividade local.
-  * **services/**
-    Módulos responsáveis por acessar APIs, buscar dados ou fornecer fontes de informação.
-  * **utils/**
-    Funções utilitárias reutilizáveis em diversas partes do projeto.
+* **utils/**
+  Funções utilitárias reutilizadas em diferentes partes do projeto.
+
+---
+
+## 🔧 **Como Executar o Projeto**
+
+1. Faça o download do repositório:
+
+   ```bash
+   git clone https://github.com/seu-repo/reddcoin-page
+   ```
+
+2. Abra o arquivo principal no navegador:
+
+   ```
+   /pages/index.html
+   ```
+
+3. (Opcional) Execute com um servidor local:
+
+   ```bash
+   npx live-server
+   ```
+
+   ou
+
+   ```bash
+   npm run dev
+   ```
+
+---
+
+## 🧩 **Tecnologias Utilizadas**
+
+* **HTML5**
+* **CSS3 / Bootstrap**
+* **JavaScript**
+* **APIs de Blockchain**
+* **Fetch API**
+* **LocalStorage**
+
+---
+
+## 📜 **Licença**
+
+Este projeto está sob a licença **MIT**.
+Sinta-se livre para usar, estudar e modificar.
+
 
