@@ -92,18 +92,6 @@ Dividido em módulos para melhor organização:
    /pages/index.html
    ```
 
-3. (Opcional) Execute com um servidor local:
-
-   ```bash
-   npx live-server
-   ```
-
-   ou
-
-   ```bash
-   npm run dev
-   ```
-
 ---
 
 ## 🧩 **Tecnologias Utilizadas**
