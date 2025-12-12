@@ -60,4 +60,4 @@ async function fetchUxtos({ addresses }) {
     return response.json()
 }
 
-export const reddcoin = {fetchAddr, fetchUxtos};
+export default {fetchAddr, fetchUxtos};

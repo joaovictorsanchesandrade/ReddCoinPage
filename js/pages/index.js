@@ -1,0 +1,1 @@
+import reddcoin from "/js/services/reddcoin.js";
